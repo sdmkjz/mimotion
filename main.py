@@ -92,7 +92,7 @@ def getWeather():
 #获取北京时间确定随机步数&启动主函数
 def getBeijinTime():
     global K, type
-    K = 0.3
+    K = 1
     type = ""
     hea = {'User-Agent': 'Mozilla/5.0'}
     url = r'https://www.beijing-time.org/t/time.asp'
